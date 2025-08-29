@@ -5,13 +5,13 @@ getElementsByClassName = getElementsByClassName returns a live HTMLCollection of
 querySelector / querySelectorAll = querySelector returns the first element that matches a CSS selector and querySelectorAll returns a static NodeList of all matching elements.
      
 How do you create and insert a new element into the DOM?
-Ans://  new element
+Ans: new element
 let newDiv = document.createElement("div");
 
-// Add content
+ Add content
 newDiv.textContent = "Hello, I am new!";
 
-//  the DOM
+  the DOM
 document.body.appendChild(newDiv);
 
 
